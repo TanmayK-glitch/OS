@@ -16,12 +16,10 @@ int main() {
         }
     }
 
-    // Convert digits to integer
     for (int j = 0; j < i; j++) {
         num = (num * 10) + buffer[j];
     }
 
-    // Print using printf
     printf("\nYou entered: %d\n", num);
 
     // ------------------------------------------
@@ -37,7 +35,6 @@ int main() {
 
     printf("Length :%d\n", len);
 
-    // Print the number
     for (int k = len - 1; k >= 0; k--) {
         write(1, &result_buffer[k], 1);
     }
